@@ -7,14 +7,25 @@ function App() {
 
 
   const [author, setAuthor] = useState("");
-  const [title, setTitle] = useState("");
-  const [body, setBody] = useState("");
-  const [public, setPublic] = useState("");
+
 
   return (
-    
+    <div>
+      <form action="">
+        <div>
+          <input type="text"
+            value={author}
+            onChange={e => setAuthor(e.target.value)} />
+        </div>
+
+
+
+
+      </form>
+    </div>
+
   )
-    
+
 }
 
 export default App
